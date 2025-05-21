@@ -124,8 +124,8 @@ importers:
         specifier: workspace:^
         version: link:../../proto
       '@bufbuild/protobuf':
-        specifier: 2.2.5
-        version: 2.2.5
+        specifier: 2.4.0
+        version: 2.4.0
     devDependencies:
       '@amzn/eslint-config':
         specifier: workspace:^
@@ -213,8 +213,8 @@ importers:
         specifier: workspace:^
         version: link:../shell-parser
       '@bufbuild/protobuf':
-        specifier: 2.2.5
-        version: 2.2.5
+        specifier: 2.4.0
+        version: 2.4.0
       '@fig/autocomplete-helpers':
         specifier: ^2.0.0
         version: 2.0.0
@@ -337,8 +337,8 @@ importers:
         specifier: workspace:^
         version: link:../shell-parser
       '@bufbuild/protobuf':
-        specifier: 2.2.5
-        version: 2.2.5
+        specifier: 2.4.0
+        version: 2.4.0
       '@fig/autocomplete-helpers':
         specifier: ^2.0.0
         version: 2.0.0
@@ -739,8 +739,8 @@ importers:
   proto:
     dependencies:
       '@bufbuild/protobuf':
-        specifier: 2.2.5
-        version: 2.2.5
+        specifier: 2.4.0
+        version: 2.4.0
     devDependencies:
       '@amzn/tsconfig':
         specifier: workspace:^
@@ -750,7 +750,7 @@ importers:
         version: 1.53.0
       '@bufbuild/protoc-gen-es':
         specifier: ^2.2.5
-        version: 2.2.5(@bufbuild/protobuf@2.2.5)
+        version: 2.2.5(@bufbuild/protobuf@2.4.0)
       typescript:
         specifier: ^5.8.3
         version: 5.8.3
@@ -786,8 +786,8 @@ packages:
     resolution: {integrity: sha512-30iZtAPgz+LTIYoeivqYo853f02jBYSd5uGnGpkFV0M3xOt9aN73erkgYAmZU43x4VfqcnLxW9Kpg3R5LC4YYw==}
     engines: {node: '>=6.0.0'}
 
-  '@asamuzakjp/css-color@3.1.7':
-    resolution: {integrity: sha512-Ok5fYhtwdyJQmU1PpEv6Si7Y+A4cYb8yNM9oiIJC9TzXPMuN9fvdonKJqcnz9TbFqV6bQ8z0giRq0iaOpGZV2g==}
+  '@asamuzakjp/css-color@3.2.0':
+    resolution: {integrity: sha512-K1A6z8tS3XsmCMM86xoWdn7Fkdn9m6RSVtocUrJYIwZnFVkng/PvkEoWtOWmP+Scc6saYWHWZYbndEEXxl24jw==}
 
   '@azure/abort-controller@2.1.2':
     resolution: {integrity: sha512-nBrLsEWm4J2u5LpAPjxADTlq3trDgVZZXHNKabeXZtpq3d3AbN/KGO82R87rdDz5/lYB024rtEf10/q0urNgsA==}
@@ -1455,6 +1455,9 @@ packages:
 
   '@bufbuild/protobuf@2.2.5':
     resolution: {integrity: sha512-/g5EzJifw5GF8aren8wZ/G5oMuPoGeS6MQD3ca8ddcvdXR5UELUfdTZITCGNhNXynY/AYl3Z4plmxdj/tRl/hQ==}
+
+  '@bufbuild/protobuf@2.4.0':
+    resolution: {integrity: sha512-RN9M76x7N11QRihKovEglEjjVCQEA9PRBVnDgk9xw8JHLrcUrp4FpAVSPSH91cNbcTft3u2vpLN4GMbiKY9PJw==}
 
   '@bufbuild/protoc-gen-es@2.2.5':
     resolution: {integrity: sha512-81dI1PLMQXUkvCUH1fKJEZsx+G69LvU/0BOFeqxotFpCFEC/jTu1Ka1ViIEGT5U1r51udRs20kHZTlkR9zwfAA==}
@@ -5976,7 +5979,7 @@ snapshots:
       '@jridgewell/gen-mapping': 0.3.8
       '@jridgewell/trace-mapping': 0.3.25
 
-  '@asamuzakjp/css-color@3.1.7':
+  '@asamuzakjp/css-color@3.2.0':
     dependencies:
       '@csstools/css-calc': 2.1.3(@csstools/css-parser-algorithms@3.0.4(@csstools/css-tokenizer@3.0.3))(@csstools/css-tokenizer@3.0.3)
       '@csstools/css-color-parser': 3.0.9(@csstools/css-parser-algorithms@3.0.4(@csstools/css-tokenizer@3.0.3))(@csstools/css-tokenizer@3.0.3)
@@ -6854,11 +6857,13 @@ snapshots:
 
   '@bufbuild/protobuf@2.2.5': {}
 
-  '@bufbuild/protoc-gen-es@2.2.5(@bufbuild/protobuf@2.2.5)':
+  '@bufbuild/protobuf@2.4.0': {}
+
+  '@bufbuild/protoc-gen-es@2.2.5(@bufbuild/protobuf@2.4.0)':
     dependencies:
       '@bufbuild/protoplugin': 2.2.5
     optionalDependencies:
-      '@bufbuild/protobuf': 2.2.5
+      '@bufbuild/protobuf': 2.4.0
     transitivePeerDependencies:
       - supports-color
 
@@ -9127,7 +9132,7 @@ snapshots:
 
   cssstyle@4.3.1:
     dependencies:
-      '@asamuzakjp/css-color': 3.1.7
+      '@asamuzakjp/css-color': 3.2.0
       rrweb-cssom: 0.8.0
     optional: true
 
