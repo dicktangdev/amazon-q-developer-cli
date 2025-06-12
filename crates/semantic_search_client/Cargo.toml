@@ -26,7 +26,7 @@ once_cell.workspace = true
 tokio.workspace = true
 
 # Vector search library
-hnsw_rs = "0.3.1"
+hnsw_rs = "0.3.2"
 
 # BM25 implementation - works on all platforms including ARM
 bm25 = { version = "2.2.1", features = ["language_detection"] }
